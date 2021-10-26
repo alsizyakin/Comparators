@@ -1,0 +1,3 @@
+/home/alexey/Git/CppPrj/Comparators/build/CMakeFiles/rebuild_cache.dir
+/home/alexey/Git/CppPrj/Comparators/build/CMakeFiles/edit_cache.dir
+/home/alexey/Git/CppPrj/Comparators/build/CMakeFiles/Comparators.dir

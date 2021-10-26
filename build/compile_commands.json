@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/alexey/Git/CppPrj/Comparators/build",
+  "command": "/bin/c++  -I/home/alexey/Git/CppPrj/Comparators/dop -g -std=gnu++17 -o CMakeFiles/Comparators.dir/sort_by.cpp.o -c /home/alexey/Git/CppPrj/Comparators/sort_by.cpp",
+  "file": "/home/alexey/Git/CppPrj/Comparators/sort_by.cpp"
+}
+]
