@@ -7,6 +7,35 @@ using namespace std;
 
 #define SORT_BY(field)  [](const AirlineTicket& lhs, const AirlineTicket& rhs) {return lhs.field < rhs.field;}
 
+
+bool operator < (Date lhs, Date rhs){
+return 10000*lhs.year + 100*lhs.month + lhs.day < 10000*rhs.year + 100*rhs.month + rhs.day;
+}
+
+bool operator == (Date lhs, Date rhs){
+  return 10000*lhs.year + 100*lhs.month + lhs.day == 10000*rhs.year + 100*rhs.month + rhs.day;
+}
+
+ostream& operator << (ostream& os, Date date){
+  os << date.year << " " << date.month << " " << date.day << std::endl;
+  return os;
+}
+
+
+bool operator < (Time lhs, Time rhs){
+    return 60*lhs.hours + lhs.minutes < 60*rhs.hours + rhs.minutes;
+}
+
+bool operator == (Time lhs, Time rhs){
+    return 60*lhs.hours + lhs.minutes == 60*rhs.hours + rhs.minutes;;
+}
+
+ostream& operator << (ostream& os, Time time){
+  os << time.hours << " " << time.minutes << std::endl;
+  return os;
+}
+
+
 void TestSortBy() {
   vector<AirlineTicket> tixs = {
     {"VKO", "AER", "Utair",     {2018, 2, 28}, {17, 40}, {2018, 2, 28}, {20,  0}, 1200},

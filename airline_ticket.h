@@ -1,13 +1,13 @@
 #pragma once 
 #include <string>
+#include <ostream>
 using namespace std;
 
 struct Date {
   int year, month, day;
 };
-bool operator < (Date lhs, Date rhs){
-return 10000*lhs.year + 100*lhs.month + lhs.day < 10000*rhs.year + 100*rhs.month + rhs.day;
-}
+
+
 
 struct Time {
   int hours, minutes;

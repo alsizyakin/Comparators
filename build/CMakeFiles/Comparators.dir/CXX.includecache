@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Git/Eclipse/Comparators/airline_ticket.h
+string
+-
+ostream
+-
+
+D:/Git/Eclipse/Comparators/sort_by.cpp
+airline_ticket.h
+D:/Git/Eclipse/Comparators/airline_ticket.h
+test_runner.h
+D:/Git/Eclipse/Comparators/test_runner.h
+algorithm
+-
+numeric
+-
+
+D:/Git/Eclipse/Comparators/test_runner.h
+sstream
+-
+stdexcept
+-
+iostream
+-
+map
+-
+set
+-
+string
+-
+vector
+-
+

@@ -38,7 +38,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Comparators::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Comparators-Debug-7930069245cfe56017ea.json",
+					"jsonFile" : "target-Comparators-Debug-ac3cc76adda23cd0300b.json",
 					"name" : "Comparators",
 					"projectIndex" : 0
 				}
@@ -48,12 +48,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/alexey/Git/CppPrj/Comparators/build",
-		"source" : "/home/alexey/Git/CppPrj/Comparators"
+		"build" : "D:/Git/Eclipse/Comparators/build",
+		"source" : "D:/Git/Eclipse/Comparators"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 2
+		"minor" : 0
 	}
 }

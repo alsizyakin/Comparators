@@ -1,8 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Comparators.dir/sort_by.cpp.o"
-  "CMakeFiles/Comparators.dir/sort_by.cpp.o.d"
-  "Comparators"
+  "CMakeFiles/Comparators.dir/sort_by.cpp.obj"
+  "Comparators.exe"
+  "Comparators.exe.manifest"
   "Comparators.pdb"
+  "libComparators.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
